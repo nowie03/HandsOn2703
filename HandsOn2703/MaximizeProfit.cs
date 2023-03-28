@@ -48,19 +48,19 @@ namespace HandsOn2703
             return maxProfit;
 
         }
-    public static void Main(string[] args)
-    {
+    //public static void Main(string[] args)
+    //{
 
-            int days = Convert.ToInt32(Console.ReadLine());
-            List<int>stockPrices= new List<int>();
+    //        int days = Convert.ToInt32(Console.ReadLine());
+    //        List<int>stockPrices= new List<int>();
 
-            for(int i = 0; i < days; i++)
-            {
-                stockPrices.Add(Convert.ToInt32(Console.ReadLine()));   
-            }
+    //        for(int i = 0; i < days; i++)
+    //        {
+    //            stockPrices.Add(Convert.ToInt32(Console.ReadLine()));   
+    //        }
 
-            Console.WriteLine("maximum profit you can achieve is "+FindMaxProfitEfficient(days, stockPrices));
-    }
+    //        Console.WriteLine("maximum profit you can achieve is "+FindMaxProfitEfficient(days, stockPrices));
+    //}
 
 
     }
